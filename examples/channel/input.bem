@@ -1,0 +1,31 @@
+NODES
+918
+918
+nodes.bem
+
+ELEMENTS
+1536
+1536
+tria3
+elems.bem
+
+PROBLEM
+1.0E-03	//Dynamic viscosity 
+1.0E-3	2.0E-5	2.0E-5 //maxU Ly Lz 
+bcs.bem
+
+RIGIDBODY
+0.0	0.0	0.0	//Xp Yp Zp
+0.001	0.0	0.0	//Vx Vy Vz
+0.0	0.0	0.0	//Wx Wy Wz
+4.2E-12	1.0E-5		//Mp Rp
+2.50E-6	1	//timestep steps
+
+ANALYSIS
+gmres 1 0 
+0
+
+POSTPROCESS
+17
+profile.bem
+

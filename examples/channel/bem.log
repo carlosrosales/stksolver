@@ -1,0 +1,21 @@
+stokes3d: starting @ Wed Aug  2 10:22:22 2006
+
+Using 918 Nodes and 1536 tria3 Elems to solve 3D Stokes Flow Problem
+Using GMRES solver.
+Initiating main loop.
+depStokes(): calling formMatrix_tria3() ...
+depStokes(): calling solverGMRES() ...
+depStokes(): calling postProcess_tria3() ...
+	stokesPostProcess_tria3(): doing velocity field calculation ...
+	stokesPostProcess_tria3(): doing pressure calculation ...
+
+*** depStokes(): calling performance analysis ***
+Time reading input: 		0.0 seconds
+Time per iteration: 		5.2 seconds
+Total execution time: 		5.2 seconds
+
+depStokes(): finished @ Wed Aug  2 10:22:27 2006
+
+
+**********************************************************
+
